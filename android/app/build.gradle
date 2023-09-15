@@ -62,4 +62,5 @@ flutter {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation "com.veryfi.lens:veryfi-lens-sdk:1.7.1.12"
 }

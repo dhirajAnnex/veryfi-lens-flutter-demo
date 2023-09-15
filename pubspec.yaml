@@ -12,17 +12,24 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+    
   flutter_dotenv: ^5.0.2
-
+  
   veryfi:
     git:
-      url: https://[USERNAME]:[PASSWORD]@repo.veryfi.com/shared/lens/flutter-plugin-veryfi-lens.git
+      url: https://annexcloud-dhiraj-rode:yJyUwheA3GTN3tgntMJ6@repo.veryfi.com/shared/lens/flutter-plugin-veryfi-lens.git
       ref: 1.5.10
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  http: ^1.1.0
+  dart_jsonwebtoken: ^2.11.0
+  azblob: ^2.6.0
+  amplify_auth_cognito_dart: ^0.10.3+1
+  amplify_storage_s3_dart: ^0.3.3
+  amplify_flutter: ^1.4.1
+  aws_common: ^0.6.0
 
 dev_dependencies:
   flutter_test:
